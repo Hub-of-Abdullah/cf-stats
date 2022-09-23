@@ -6,7 +6,7 @@
       line-height: 21px;
     }
 
-    #background {
+    background {
       width: calc(100% - 10px);
       height: calc(100% - 10px);
       fill: white;
@@ -16,7 +16,7 @@
       ry: 6px;
     }
 
-    #gh-dark-mode-only:target #background {
+    gh-dark-mode-only:target background {
       fill: #0d1117;
       stroke-width: 0.5px;
     }
@@ -41,7 +41,7 @@
       color: rgb(3, 102, 214);
     }
 
-    #gh-dark-mode-only:target th {
+    gh-dark-mode-only:target th {
       color: #58a6ff;
     }
 
@@ -54,7 +54,7 @@
       color: rgb(88, 96, 105);
     }
 
-    #gh-dark-mode-only:target td {
+    gh-dark-mode-only:target td {
       color: #c9d1d9;
     }
 
@@ -73,7 +73,7 @@
       margin-right: 1ch;
     }
 
-    #gh-dark-mode-only:target .octicon {
+    gh-dark-mode-only:target .octicon {
       fill: #8b949e;
     }
 
